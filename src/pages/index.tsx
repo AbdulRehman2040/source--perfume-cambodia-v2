@@ -18,6 +18,7 @@ import PromiseSection from '../componets/promise/PromiseSection'
 import MostWantedSection from '../componets/mostwantedsection/MostWantedSection'
 import MostWantedGallery from '../componets/Mostgallery/MostWantedgallery'
 import CollectionSlider from '../componets/NineCollectionSection/NineCollectionSection'
+import ClientOnly from '../componets/ClientOnly'
 
 const index = () => {
   useScrollAnimation();
@@ -28,7 +29,7 @@ const index = () => {
       <PromiseSection/>
        <NewReleases />
        <MostWantedSection/>
-       <MostWantedGallery/>
+       <ClientOnly><MostWantedGallery/></ClientOnly>
       <CollectionSlider/>
      
       {/* <FragranceHighlights/> */}
