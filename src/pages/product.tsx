@@ -7,7 +7,7 @@ import Footer from '../componets/footer/footer';
 const ProductPage: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
-  const [expandedSection, setExpandedSection] = useState<string | null>(null);
+  const [expandedSection, setExpandedSection] = useState<string | null>('Fragrance Notes');
 
   const product = {
     name: "Midnight Bloom – Eau de Parfum",
