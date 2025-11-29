@@ -24,11 +24,11 @@ const index = () => {
   useScrollAnimation();
   return (
     <LanguageProvider>
-      <Navigation />
-      <HeroBanner />
+      <ClientOnly><Navigation /></ClientOnly>
+      <ClientOnly><HeroBanner /></ClientOnly>
       <PromiseSection/>
        <NewReleases />
-       <MostWantedSection/>
+       <ClientOnly><MostWantedSection/></ClientOnly>
        <ClientOnly><MostWantedGallery/></ClientOnly>
       <CollectionSlider/>
      
