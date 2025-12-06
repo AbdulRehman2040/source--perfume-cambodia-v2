@@ -310,13 +310,13 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
 
   useEffect(() => {
     if (!isAuthenticated) {
-      navigate('/admin/login');
+      navigate('/AdminLogin');
     }
   }, [isAuthenticated]);
 
   const handleLogout = () => {
     localStorage.removeItem('admin_logged_in');
-    navigate('/admin/login');
+    navigate('/AdminLogin');
   };
 
   if (!isAuthenticated) {
@@ -1054,7 +1054,7 @@ const AdminProducts: React.FC = () => {
   React.useEffect(() => {
     const isLoggedIn = localStorage.getItem('admin_logged_in') === 'true';
     if (!isLoggedIn) {
-      navigate('/admin/login');
+      navigate('/admin/login/');
     }
   }, []);
 
