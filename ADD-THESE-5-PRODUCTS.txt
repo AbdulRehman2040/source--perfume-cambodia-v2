@@ -1,0 +1,114 @@
+// ========== ADD THESE 5 NEW PRODUCTS TO admin.tsx ==========
+// Copy these products and paste them BEFORE the closing ]; on line 113
+
+,
+    {
+      id: '4',
+      name: 'Silk Orchid',
+      thumbnail: 'https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=400&h=400&fit=crop',
+      gallery: [
+        'https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=800&h=800&fit=crop',
+        'https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800&h=800&fit=crop'
+      ],
+      price: 325.00,
+      salePrice: 289.99,
+      quantity: 28,
+      shortDesc: 'Exotic orchid with silk musk base',
+      longDesc: 'A rare blend of purple orchid, bergamot, and white silk musk. Elegant and sophisticated.',
+      type: 'Eau de Parfum',
+      category: 'Floral',
+      sku: 'PERF-004-SIL',
+      featured: true,
+      status: 'in_stock',
+      createdAt: '2024-02-05',
+      updatedAt: '2024-02-28',
+      related: ['1', '2']
+    },
+    {
+      id: '5',
+      name: 'Spiced Chai',
+      thumbnail: 'https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&h=400&fit=crop',
+      gallery: [
+        'https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800&h=800&fit=crop'
+      ],
+      price: 245.00,
+      quantity: 17,
+      shortDesc: 'Warm spices with creamy oriental notes',
+      longDesc: 'Cinnamon, cardamom, and nutmeg blend with vanilla cream and sandalwood.',
+      type: 'Eau de Parfum',
+      category: 'Oriental',
+      sku: 'PERF-005-CHA',
+      featured: false,
+      status: 'in_stock',
+      createdAt: '2024-02-12',
+      updatedAt: '2024-02-27',
+      related: ['1', '3']
+    },
+    {
+      id: '6',
+      name: 'Marine Horizon',
+      thumbnail: 'https://images.unsplash.com/photo-1587556930806-94703ff102ea?w=400&h=400&fit=crop',
+      gallery: [],
+      price: 175.00,
+      quantity: 6,
+      shortDesc: 'Fresh aquatic with sea salt accord',
+      longDesc: 'Oceanic breeze with sea salt, driftwood, and white musk. Clean and refreshing.',
+      type: 'Eau de Toilette',
+      category: 'Fresh',
+      sku: 'PERF-006-MAR',
+      featured: false,
+      status: 'low_stock',
+      createdAt: '2024-02-18',
+      updatedAt: '2024-02-28',
+      related: ['2']
+    },
+    {
+      id: '7',
+      name: 'Dark Cocoa',
+      thumbnail: 'https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=400&fit=crop',
+      gallery: [
+        'https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&h=800&fit=crop',
+        'https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800&h=800&fit=crop'
+      ],
+      price: 410.00,
+      salePrice: 369.99,
+      quantity: 12,
+      shortDesc: 'Premium dark chocolate with rum notes',
+      longDesc: 'Rich dark cocoa blended with aged rum, vanilla bourbon, and tonka bean. Decadent luxury.',
+      type: 'Parfum',
+      category: 'Luxury',
+      sku: 'PERF-007-COC',
+      featured: true,
+      status: 'in_stock',
+      createdAt: '2024-01-22',
+      updatedAt: '2024-02-26',
+      related: ['1', '3', '5']
+    },
+    {
+      id: '8',
+      name: 'Wild Berries',
+      thumbnail: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400&h=400&fit=crop',
+      gallery: [
+        'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&h=800&fit=crop'
+      ],
+      price: 198.00,
+      quantity: 52,
+      shortDesc: 'Sweet berry blend with citrus sparkle',
+      longDesc: 'Raspberry, blackberry, and wild strawberry with pink grapefruit and vanilla sugar.',
+      type: 'Eau de Toilette',
+      category: 'Citrus',
+      sku: 'PERF-008-BER',
+      featured: true,
+      status: 'in_stock',
+      createdAt: '2024-02-08',
+      updatedAt: '2024-02-25',
+      related: ['2', '4']
+    }
+
+// ========== INSTRUCTIONS ==========
+// 1. Open admin.tsx
+// 2. Go to line 112 (after the Amber Noir product that ends with updatedAt: '2024-02-28')
+// 3. Add a comma after the closing brace }
+// 4. Paste all the content above (starting with the comma)
+// 5. This will add 5 new products: Silk Orchid, Spiced Chai, Marine Horizon, Dark Cocoa, Wild Berries
+// 6. Total products will be: 8 products
